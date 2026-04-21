@@ -1,0 +1,3 @@
+- [ ] create colorscheme
+- [ ] get rid of all px stuff
+- [ ] fix for mobile navbar
