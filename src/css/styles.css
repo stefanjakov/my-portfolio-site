@@ -17,7 +17,7 @@
 }
 
 html {
-	overflow-x: hidden;
+	overflow-x: clip;
 	scroll-behavior: smooth;
 }
 
@@ -36,7 +36,7 @@ html {
 
 body {
 	margin: 0;
-	overflow-x: hidden;
+	overflow-x: clip;
 	/* gradient circles */
 	background:
 		radial-gradient(circle at 12% 46%, var(--color-accent) 0, transparent 28rem),
@@ -50,7 +50,7 @@ body {
 }
 
 main {
-	overflow-x: hidden;
+	overflow-x: clip;
 }
 
 /* for gradient circles */
@@ -368,7 +368,7 @@ h2 {
 .page-section {
 	display: grid;
 	place-items: center;
-	overflow-x: hidden;
+	overflow-x: clip;
 	min-height: 72vh;
 	padding: 7rem 1.5rem 4rem;
 }
