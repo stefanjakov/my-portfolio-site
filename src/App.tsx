@@ -100,6 +100,29 @@ const projects = [
 			{ label: 'SQLite', icon: SiSqlite },
 		],
 	},
+	{
+		title: 'Merge.io',
+		subtitle: 'Swift Project for iOS/MacOS Application',
+		description:
+			'Swift productivity app for managing interview pipelines, goals, projects, and Kanban boards with SwiftData persistence, CloudKit sync, and a local LLM-powered voice assistant for hands-free app actions.',
+		tags: [
+			{ label: 'Swift', icon: FaCode },
+			{ label: 'SwiftData', icon: FaDatabase },
+			{ label: 'CloudKit', icon: FaServer },
+			{ label: 'LLM', icon: FaTerminal },
+		],
+	},
+	{
+		title: "Stefan's Study App",
+		subtitle: 'Personal Study App',
+		description:
+			'Personal study app for creating and managing study sets while privately tracking correctness and learning progress over time.',
+		tags: [
+			{ label: 'TypeScript', icon: SiTypescript },
+			{ label: 'Next.js', icon: SiNextdotjs },
+			{ label: 'React', icon: SiReact },
+		],
+	},
 ]
 
 const skills = [
@@ -115,6 +138,7 @@ const skills = [
 			{ label: 'C#', icon: SiDotnet },
 			{ label: '.NET', icon: SiDotnet },
 			{ label: 'Rust', icon: SiRust },
+			{ label: 'Swift', icon: FaCode },
 		],
 	},
 	{
@@ -165,13 +189,13 @@ const coursework = [
 const experiences = [
 	{
 		company: 'United Wholesale Mortgage',
-		role: 'Software Developer Intern',
+		role: 'Software Engineering Intern',
 		date: 'May 2026 -',
 		image: '/uwm.png',
 		imageAlt: 'United Wholesale Mortgage logo',
 		details: [
-			'Will build and contribute to C# backend services on the .NET framework using object-oriented design.',
-			'Will participate in Agile Scrum across the full software development life cycle, from design through implementation and testing.',
+			'Led a team of software engineering interns in developing a C#/.NET microservice that displayed company JAMS job data.',
+			'Built backend services using C#, Apache Kafka, and Microsoft SQL Server in an Agile Scrum environment, with 92% of surveyed software engineers reporting the tool as useful.',
 		],
 	},
 	{

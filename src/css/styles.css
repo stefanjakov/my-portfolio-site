@@ -562,6 +562,14 @@ h2 {
 	animation-delay: 280ms;
 }
 
+.projects-visible .project-card:nth-child(4) {
+	animation-delay: 420ms;
+}
+
+.projects-visible .project-card:nth-child(5) {
+	animation-delay: 560ms;
+}
+
 .project-card:hover,
 .project-card:focus-visible {
 	border-color: var(--color-accent-alt);
